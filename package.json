@@ -1,28 +1,19 @@
 {
   "name": "reator",
-  "version": "2.2.1",
-  "description": "Core module for all Reator versions.",
-  "main": "src/index.js",
-  "directories": {
-    "test": "test"
-  },
+  "version": "1.0.0",
+  "description": "Real Time Decentralize Editor",
+  "main": "index.js",
   "scripts": {
-    "build": "browserify src/index.js -s ReatorCore -o dist/reator-core.js && babel dist/reator-core.js --out-file dist/reator-core.js --presets=es2015"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Reator",
-  "license": "MIT",
-  "devDependencies": {
-    "standard": "^12.0.1",
-    "tape": "^4.6.3"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sandhya023/Reator.git"
   },
-  "dependencies": {
-    "babel-cli": "^6.26.0",
-    "babel-preset-es2015": "^6.24.1",
-    "y-array": "^10.0.6",
-    "y-map": "^10.0.5",
-    "y-memory": "^8.0.8",
-    "y-multihack": "^1.1.0",
-    "y-text": "^9.4.0",
-    "yjs": "^13.0.0-69"
-  }
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sandhya023/Reator/issues"
+  },
+  "homepage": "https://github.com/Sandhya023/Reator#readme"
 }
